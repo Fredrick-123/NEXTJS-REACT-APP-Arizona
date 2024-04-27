@@ -1,0 +1,25 @@
+.bv-container .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: visible;
+}
+
+.bd-video {
+  width: 95%;
+  border-radius: 4rem;
+  margin-top: -3rem;
+  z-index: 1;
+}
+
+@media (max-width: 1024px) {
+  .bd-video {
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .bd-video {
+    border-radius: 2rem;
+  }
+}
